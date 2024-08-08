@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    border-top: 12px solid #00005a;
+    border-bottom: 12px solid #00005a;
+    width: 100%;
+  }
+  
+  .logo {
+    margin-left: 15px;
+    width: 100px;
+  }
+  
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2rem 1;
+    margin-right: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: #e8e8e3;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    margin-left: 8rem;
+    margin-right: 20px;
+  }
+  
+  .seletor {
+    margin-left: 5rem;
+    font-size: 1rem;
+  
+  }
+  
+  .campo-clic {
+    color: #272961;
+    border-radius: 5px;
+    text-decoration: none;
+  
+  }
+  
+  a:hover {
+    color: #3d4099;
+    cursor: pointer; 
+  }
