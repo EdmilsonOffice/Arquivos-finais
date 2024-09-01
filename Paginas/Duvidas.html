@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="duvidas.css">
+    <title>Duvidas Frequentes</title>
+    <link rel="stylesheet" href="/Estilos/reset.css">
+    <link rel="stylesheet" href="/Estilos/duvidas.css">
+    <link rel="stylesheet" href="/Estilos/footer.css">
 </head>
 <body>
 
     <header class="header">
         <nav id="nav" class="nav">
-            <img class="logo" src="/assets/logo-fordgo.webp" alt="Logo Ford Go">
+            <img class="logo" src="/Assets/logo-fordgo.webp" alt="Logo Ford Go">
             <ul class="menu" id="menu">
-                <li class="seletor"><a class="campo-clic" href="#">Veículos</a></li>
-                <li class="seletor"><a class="campo-clic" href="#">Aluguel</a></li>
-                <li class="seletor"><a class="campo-clic" href="#">Assinatura</a></li>
-                <li class="seletor"><a class="campo-clic" href="#">Dúvidas</a></li>
+                <li class="seletor"><a class="campo-clic" href="/Paginas/veiculos.html">Veículos</a></li>
+                <li class="seletor"><a class="campo-clic" href="/Paginas/Aluguel.html">Aluguel</a></li>
+                <li class="seletor"><a class="campo-clic" href="/Paginas/Assinatura.html">Assinatura</a></li>
+                <li class="seletor"><a class="campo-clic" href="/Paginas/Duvidas.html">Dúvidas</a></li>
             </ul>
         </nav>
     </header>
@@ -56,117 +57,86 @@
             <p>Sim, na nossa locadora, o seguro básico já está incluído no valor do aluguel. Esse seguro cobre danos ao veículo alugado e a terceiros, conforme as condições do contrato de locação. Além do seguro básico, oferecemos opções adicionais de seguro para proporcionar maior proteção e tranquilidade durante a sua locação.</p>
         </div>
     </div>
-    
-    <script>
-        // Script para fazer o accordion funcionar
-        var accordions = document.getElementsByClassName("accordion");
-    
-        for (var i = 0; i < accordions.length; i++) {
-            accordions[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var panel = this.nextElementSibling;
-                if (panel.style.display === "block") {
-                    panel.style.display = "none";
-                } else {
-                    panel.style.display = "block";
-                }
-            });
-        }
-    </script>
 
+     <!--Inicio do rodapé-->
+     <footer>
+        <di class="footer">
 
-<footer>
-    <di>
-
-        <nav class="selecao">
-            <img class="logo-footer" src="/assets/ford pronto.png">
-            <ul class="menu-footer">
-                <li class="click">
-                    <h3 class="f-h3" href="#">Contatos</h3>
-                    <a class="a-footer" href="#">@fordgobrasil.com.br</a>
-                    <a class="a-footer" href="#">(11)9 000000-00</a>
-                    <a class="a-footer" href="#">whatsapp</a>
-                    <a class="a-footer" href="#">@FordGo</a>
+            <nav class="selecao">
+                <img class="logo-footer" src="/Assets/ford pronto.png">
+                <ul class="menu-footer">
+                    <li class="click">
+                        <h3 class="f-h3" href="#">Contatos</h3>
+                        <a class="a-footer" href="#">@fordgobrasil.com.br</a>
+                        <a class="a-footer" href="#">(11)9 000000-00</a>
+                        <a class="a-footer" href="#">whatsapp</a>
+                        <a class="a-footer" href="#">@FordGo</a>
+                    </li>
+                    <li class="click">
+                        <h3 class="f-h3" href="#">Sobre nós</h3>
+                        <a class="a-footer" href="#">Ford-Foundation</a>
+                        <a class="a-footer" href="#">Carreiras</a>
+                        <a class="a-footer" href="#">Programa de estágio</a>
+                        <a class="a-footer" href="#">Ford-Enter</a>
+                        <a class="a-footer" href="#">Noticias</a>
                 </li>
                 <li class="click">
-                    <h3 class="f-h3" href="#">Sobre nós</h3>
-                    <a class="a-footer" href="#">Ford-Foundation</a>
-                    <a class="a-footer" href="#">Carreiras</a>
-                    <a class="a-footer" href="#">Programa de estágio</a>
-                    <a class="a-footer" href="#">Ford-Enter</a>
-                    <a class="a-footer" href="#">Noticias</a>
-            </li>
-            <li class="click">
-                <h3 class="f-h3" href="#">Comprar</h3>
-                <a class="a-footer" href="#">Monte o seu</a>
-                <a class="a-footer" href="#">Ofertas</a>
-                <a class="a-footer" href="#">Concessionárias</a>
-                <a class="a-footer" href="#">Simule seu Financiamento</a>
-                <a class="a-footer" href="#">Plano Ford Sempre</a>
-            </li>
-            <li class="click">
-                <h3 class="f-h3" href="#">Serviços</h3>
-                <a class="a-footer" href="#">Atualização Sync</a>
-                <a class="a-footer" href="#">Assistência de Emergência</a>
-                <a class="a-footer" href="#">Agende seu Serviço</a>
-                <a class="a-footer" href="#">Serviço Leva e Traz</a>
-                <a class="a-footer" href="#">Revisões Ford </a>
-            </li>
-            <li class="footer-info">
-                <a href="https://www.facebook.com/FordBrasil/">
-                    <img class="icons" src="/assets/facebook.png" alt="">
-                </a>
-               
-                <a href="https://www.youtube.com/fordbrasil">
-                   
-                    <img class="icons" src="/assets/youtube.png" alt="">
-                </a>
-               
-                <a href="https://www.instagram.com/fordbrasil/">
-                   
-                    <img class="icons" src="/assets/instagram.png" alt="">
-                </a>
+                    <h3 class="f-h3" href="#">Comprar</h3>
+                    <a class="a-footer" href="#">Monte o seu</a>
+                    <a class="a-footer" href="#">Ofertas</a>
+                    <a class="a-footer" href="#">Concessionárias</a>
+                    <a class="a-footer" href="#">Simule seu Financiamento</a>
+                    <a class="a-footer" href="#">Plano Ford Sempre</a>
+                </li>
+                <li class="click">
+                    <h3 class="f-h3" href="#">Serviços</h3>
+                    <a class="a-footer" href="#">Atualização Sync</a>
+                    <a class="a-footer" href="#">Assistência de Emergência</a>
+                    <a class="a-footer" href="#">Agende seu Serviço</a>
+                    <a class="a-footer" href="#">Serviço Leva e Traz</a>
+                    <a class="a-footer" href="#">Revisões Ford </a>
                 </li>
             </ul>
-        </nav>
-    </di>
-</footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            <ul id="icons">
+                  <li >
+                    <a href="https://www.facebook.com/FordBrasil/">
+                        <img class="icons" src="/Assets/facebook1.png" alt="">
+                    </a>
+                    
+                    <a href="https://www.youtube.com/fordbrasil">
+                        
+                        <img class="icons" src="/Assets/youtube1.png" alt="">
+                    </a>
+                    
+                    <a href="https://www.instagram.com/fordbrasil/">
+                        
+                        <img class="icons" src="/Assets/Instagram1.png" alt="">
+                    </a>
+                    <a href="https://www.linkedin.com/company/ford-brasil/">
+                        
+                        <img class="icons" src="/Assets/linkedim.png" alt="">
+                    </a>
+                </li>
+            </ul>
+            </nav>
+        </di>
+    </footer>
     
+    <script>
+    // Script para fazer o accordion funcionar
+    var accordions = document.getElementsByClassName("accordion");
+
+    for (var i = 0; i < accordions.length; i++) {
+        accordions[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+</script>
 </body>
 </html>

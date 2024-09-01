@@ -37,7 +37,7 @@
 }
  
 .campo-clic {
-  color: black;
+  color: #272961;
   border-radius: 5px;
   transition: all 0.1s;
   text-decoration: none;
@@ -45,7 +45,8 @@
 }
  
 a:hover {
-  color: #1616ca;
+  background-color: #ffff;
+  color: #272961;
   cursor: pointer;  
 }
 
@@ -84,4 +85,3 @@ a:hover {
 .panel.show {
   display: block;
 }
-
