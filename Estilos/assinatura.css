@@ -63,7 +63,7 @@ body {
   }
   
   .info-img {
-    background-image: url(/assets/ford-go-assinatura-veiculos.jpg);
+    background-image: url(/Assets/ford-go-assinatura-veiculos.jpg);
     object-fit: cover;
     display: block;
     height: auto;
@@ -299,5 +299,3 @@ align-items: center;
   border-radius: 15px;
   color: #ffff;
 }
-
- 
